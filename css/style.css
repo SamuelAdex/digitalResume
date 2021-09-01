@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: Cambria, serif;
+}
+.container{
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.content{
+    display: flex;
+    padding: 0;
+    box-shadow: -1px 4px 20px 5px rgba(192, 192, 192, 0.75);
+}
+
+.details{
+    flex: 1.5;
+    background: rgb(38, 54, 12);
+    color: whitesmoke;
+}
+.details .img-container{
+    background: rgb(34, 49, 9);
+    padding: 10px;
+    cursor: pointer;
+}
+.details .img-container h1{
+    font-size: 25pt;
+}
+.details .img-container small{
+    opacity: 0.6;
+    transition: .9s ease-in;
+}
+.details .img-container small:hover{
+    opacity: unset;
+}
+.details .img-container .img-border img{
+    width: 80%;
+    height: 80%;
+    border-radius: 100px;
+    border: 8px solid rgb(38, 54, 12);
+    transition: .9s ease-in;
+}
+.details .img-container .img-border img:hover, .details .img-container .img-border img:active{
+    border: 8px solid whitesmoke;
+}
+.details .img-container{
+    padding: 20px;
+    text-align: center;
+}
+.details .detail{
+    padding: 30px;
+}
+.detail ul li{
+    list-style: none;
+    line-height: 40px;
+    font-family: Cambria, serif;
+    font-weight: bolder;
+    font-size: 11pt;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: .8s ease-out;
+}
+.detail ul li:hover{
+    opacity: unset;
+}
+.detail .education, .language, .interest{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.detail .education{
+    line-height: 24px;
+}
+.detail .education h2{
+    margin-bottom: 15px;
+}
+
+.detail .education p, .detail .education span{
+    opacity: 0.6;
+    font-size: 10pt;
+    transition: .8s ease-out;
+}
+.detail .education p:hover, .detail .education span:hover{
+    opacity: unset;
+}
+.detail .language{
+    line-height: 40px;
+}
+.detail .language p{
+    opacity: 0.6;
+}
+
+
+.more-details{
+    flex:4;
+    background-color: white;
+    padding: 50px;
+    width: 100%;
+    color: rgb(34, 49, 9);
+    cursor: pointer;
+    
+}
+.more-details .experience, .projects, .skills{
+    margin-top: 40px;
+    width: 100%;
+}
+.more-details ul li{
+    list-style: none;
+    font-family: Cambria, serif;
+}
+.more-details .career{
+    line-height: 30px;
+    width: 100%;
+}
+.more-details .career p{
+    opacity: 0.8;
+}
+.more-details .career h2, .experience h2, .projects h2, .skills h2{
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.more-details .career h2 i, .experience h2 i, .projects h2 i, .skills h2 i{
+    background: rgb(34, 49, 9);
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15pt;
+    margin-right: 4px;
+}
+
+.more-details .experience-content{
+    margin-bottom: 30px;
+}
+.experience-body p, .date{
+    opacity: 0.8;
+}
+.more-details .experience .experience-content{
+    display: flex;
+}
+.experience-body{
+    flex: 4;
+}
+.experience-body p{
+    line-height: 30px;
+}
+.date{
+    flex: 1;
+    text-align: right;
+}
+
+
+.more-details .projects ul{
+    line-height: 50px;
+}
+.more-details .projects ul li span{
+    opacity: 0.8;
+}
+
+.more-details .download a{
+    text-decoration: none;
+    padding: 12px;
+    color: whitesmoke;
+    background:  rgb(34, 49, 9);
+    border-radius: 10px;
+    font-size: 10pt;
+    font-weight: bold;
+    transition: .8s ease-in;
+}
+.more-details .download a:hover{
+    color: rgb(34, 49, 9);
+    background: whitesmoke;
+}
+
+
+
+.more-details .skills{
+    line-height: 50px;
+}
+/* Progress Bar */
+.box{
+    width: 100%;
+}
+.box h5{
+    opacity: .8;
+}
+.wrapper {
+    width: 420px;
+    background: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    position: relative;
+  }
+  
+  .wrapper_2 {
+    width: 420px;
+    background: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    position: relative;
+  }
+  
+  .progress {
+    width: 75%;
+    height: 20px;
+    border-radius: 50px 5px 5px 50px;
+    background-color: rgb(38, 54, 12);
+    position: relative;
+    cursor: pointer;
+    margin: 0 0px;
+    border-right: 1px solid rgba(0,0,0,0.75);
+  }
+  
+  .progress_2 {
+    width: 50%;
+    height: 20px;
+    border-radius: 50px 5px 5px 50px;
+    background-color:rgb(38, 54, 12);
+    position: relative;
+    cursor: pointer;
+    margin: 0 0px;
+    border-right: 1px solid rgba(0,0,0,0.75);
+  }
+
+  .container center small{
+      font-weight: bolder;
+      font-size: 10pt;
+      font-family: monospace;
+  }
+
+
+
+@media screen and (max-width: 760px){
+    .content{
+        display: block
+    }
+    .container{
+        padding: 10px;
+    }
+    .details .img-container .img-border img{
+        border-radius: 200px;
+    }
+
+    .more-details .career h2, .experience h2, .projects h2, .skills h2{
+        font-size: 15pt;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+    .wrapper_2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .content{
+        display: block
+    }
+    .container{
+        padding: 10px;
+    }
+    .details .img-container .img-border img{
+        border-radius: 300px;
+    }
+
+    .more-details .career h2, .experience h2, .projects h2, .skills h2{
+        font-size: 15pt;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+    .wrapper_2{
+        width: 100%;
+    }
+}
